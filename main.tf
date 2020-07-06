@@ -1,5 +1,5 @@
-# aws_instance.newec2:
-resource "aws_instance" "newec2_tfc" {
+# aws_instance.newec2_tfc:
+resource "aws_instance" "newec2_tfc_tfc" {
     lifecycle {
       create_before_destroy = true
     }
@@ -12,7 +12,7 @@ resource "aws_instance" "newec2_tfc" {
 #    count = 2
     for_each = {
       "tfc": "tfc",
-#      "num": "newec2-2",
+#      "num": "newec2_tfc-2",
       #"indexing":  "value3",
       #"example":   "value4",
     }
