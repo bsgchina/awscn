@@ -1,5 +1,5 @@
 output "PublicDNS-1" {
-  value       = aws_instance.newec2_tfc["tfe"].public_dns
+  value       = aws_instance.newec2_tfc["tfc"].public_dns
   description = "AWS EC2 public DNS"
 }
 
