@@ -1,5 +1,5 @@
 # aws_instance.newec2_tfc:
-resource "aws_instance" "newec2_tfc_tfc" {
+resource "aws_instance" "newec2_tfc" {
     lifecycle {
       create_before_destroy = true
     }
